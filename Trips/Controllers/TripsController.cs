@@ -4,7 +4,7 @@ using Trips.Data;
 namespace Trips.Controllers
 {
      [Route("api/[controller]")]
-    //public class TripsController: Controller
+    public class TripsController: Controller
     {
         private readonly ITripService tripService;
 
